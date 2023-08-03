@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header id="header">
+        <div class="cabeca">
+            <img class="head" src="img/capa.png" alt="">
+        </div>
+        <div class="container">
+        <div class="conteudo">
+            <h1 class="vol">CALCULADORA DE VOLUME</h1>
+            <h2 class="sol">SÓLIDOS GEOMÉTRICOS</h2>
+        </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="section">
+            <div class="container">
+                <div class="caixas">
+
+                    <div onclick="Cubo()" class="poligono">
+                        <div class="imagem">
+                            <img src="img/cubo.png" alt="">
+                        </div>
+                        <div class="linha"></div>
+                        <h4 class="nome">CUBO</h4>
+                        <h3 id="a_ret"></h3>
+                    </div>
+
+                    <div class="poligono">
+                        <div class="imagem">
+                            <img src="img/piramide.png" alt="">
+                        </div>
+                        <div class="linha"></div>
+                        <h4 class="nome">PIRAMIDE</h4>
+                    </div>
+
+                    <div class="poligono">
+                        <div class="imagem">
+                            <img src="img/cilindro.png" alt="">
+                        </div>
+                        <div class="linha"></div>
+                        <h4 class="nome">CILINDRO</h4>
+                    </div>
+
+                    <div class="poligono">
+                        <div class="imagem">
+                            <img src="img/esfera.png" alt="">
+                        </div>
+                        <div class="linha"></div>
+                        <h4 class="nome">ESFERA</h4>
+                    </div>
+
+                    <div class="poligono">
+                        <div class="imagem">
+                            <img src="img/cone.png" alt="">
+                        </div>
+                        <div class="linha"></div>
+                        <h4 class="nome">CONE</h4>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="texto">
+                    <p class="aviso">Escolha seu sólido geométrico e descubra seu volume em um click!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+</html>
