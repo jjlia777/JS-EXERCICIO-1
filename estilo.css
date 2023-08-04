@@ -124,6 +124,31 @@ body {
     font: 300 25px 'Poppins', sans-serif;
 }
 
+#cone {
+    font: 200 15px 'Poppins Bold', sans-serif;
+    color: red;
+}
+
+#cubo {
+    font: 200 15px 'Poppins Bold', sans-serif;
+    color: red;
+}
+
+#cilindro {
+    font: 200 15px 'Poppins Bold', sans-serif;
+    color: red;
+}
+
+#piramide {
+    font: 200 15px 'Poppins Bold', sans-serif;
+    color: red;
+}
+
+#esfera {
+    font: 200 15px 'Poppins Bold', sans-serif;
+    color: red;
+}
+
 /* RESPONSIVO */
 
 @media screen and (max-width:768px) {
